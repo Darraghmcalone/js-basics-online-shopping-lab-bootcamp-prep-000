@@ -1,5 +1,5 @@
 }
-  		  
+
   function addToCart(item) {
     to get random number
    function getRandomInt() {
@@ -13,7 +13,7 @@
    console.log(`${item} has been added to your cart.`)
    return cart;
   }		  }
-  		  
+
 function viewCart() {
      if cart has no items
    if (cart.length === 0) {
@@ -40,7 +40,7 @@ function viewCart() {
    }
    }
   }		  }
-  		  
+
 function total() {
     var cartContains = [];
    var cartCost = [];
@@ -48,7 +48,7 @@ function total() {
  for (var i = 0; i < cart.length; i++) {
    cartContains.push(Object.keys(cart[i]))
  }
- 
+
  for (var i = 0; i < cartContains.length; i++) {
    cartCost.push(cart[i][cartContains[i]])
  }
@@ -57,7 +57,7 @@ function total() {
  }
  return cartTotal
   }		  }
-  		  
+
 function removeFromCart(item) {
     var cartContains = [];
    var itemIndex = 0;
@@ -76,7 +76,7 @@ function removeFromCart(item) {
      return cart
    }
   }		  }
-  		  
+
 function placeOrder(cardNumber) {
     if (cardNumber == undefined) {
      console.log("Sorry, we don't have a credit card on file for you.")
