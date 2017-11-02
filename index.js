@@ -39,7 +39,7 @@ function viewCart() {
      console.log(`In your cart, you have ${cartContains[0]} at $${cartCost[0]}, ${cartContains[1]} at $${cartCost[1]}, ${cartContains[2]} at $${cartCost[2]}, and ${cartContains[3]} at $${cartCost[3]}.`)
    }
    }
-  }		  }
+  }		  
 
 function total() {
     var cartContains = [];
@@ -56,7 +56,7 @@ function total() {
    cartTotal += cartCost[i]
  }
  return cartTotal
-  }		  }
+  }		  
 
 function removeFromCart(item) {
     var cartContains = [];
