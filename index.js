@@ -58,10 +58,4 @@ function removeFromCart(item) {
        console.log("That item is not in your cart.");
   }
 
-function placeOrder(number) {
-   if (number === undefined) {
- }	console.log("Sorry, we don't have a credit card on file for you.");
-     } else {
-     console.log(`Your total cost is $${total()}, which will be charged to the card ${number}.`);
-     cart = [];
-     }
+  
