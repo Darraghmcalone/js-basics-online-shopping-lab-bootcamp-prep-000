@@ -38,12 +38,4 @@ function getCart() {
  }
   }
 
-function total() {
-   var totalCost = 0;
-   for (var i in cart) {
-   var item = Object.keys(cart[i]);
-   var itemCost = cart[i][item];
-   totalCost += itemCost;
- }
- return totalCost;
-		  }
+
