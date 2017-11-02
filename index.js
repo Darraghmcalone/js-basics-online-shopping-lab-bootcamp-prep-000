@@ -47,5 +47,3 @@ function total() {
  }
  return totalCost;
 		  }
-
-
