@@ -1,4 +1,4 @@
-}
+
 
   function addToCart(item) {
     to get random number
@@ -85,3 +85,7 @@ function placeOrder(cardNumber) {
      var cardCost = cardNumber
      console.log(`Your total cost is $${totalCost}, which will be charged to the card ${cardCost}.`)
      cart = [];
+     return cart
+   }
+  }		  
+
